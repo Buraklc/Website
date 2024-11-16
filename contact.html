@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- JavaScript: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
+        defer>
+        </script>
+    <!-- eigen geschreven css voor jouw html-bestand -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <img class="m-2" src="./assets/Logo.png" alt="Logo" width="100" height="100">
+
+    <nav class="navbar navbar-expand container-fluid">
+    
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav col m-2 d-flex flex-lg-row flex-column">
+                <li class="nav-item col-lg-4 col-12 text-center">
+                    <a class="nav-link rounded" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item col-lg-4 col-12 text-center">
+                    <a class="nav-link rounded" href="./Portfolio.html">Projects</a>
+                </li>
+                <li class="nav-item col-lg-4 col-12 text-center">
+                    <a class="nav-link rounded active" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    
+
+    <main>
+        <header>
+            <h1 class="m-2 mt-5">Contact</h1>
+
+            <ul class=" m-2 breadcrumb mt-5 mb-5">
+                <li><a href="index.html">Home/</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </header>
+        <p class="col-md-4 m-2 mb-5 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorum quam incidunt repellat numquam.
+            Itaque eveniet tenetur similique molestias, ducimus dicta cupiditate autem sint doloribus? Et laborum
+            voluptate vitae officia!
+        </p>
+        <form action="#" method="post" class="container-fluid">
+
+            <fieldset class="row mb-3 g-3">
+    
+                <legend class="text-uppercase fs-5 fw-bolder">Gegevens</legend>
+    
+                    <div class="col-md-6">
+                        <label for="fname">Voornaam</label> <br>
+                        <input class="w-50" type="text" id="fname" name="fname">
+                    </div>
+    
+                    <div class="col-md-6">
+                        <label for="lname">Achternaam</label> <br>  
+                        <input class="w-50" type="text" id="lname" name="lname" >
+                    </div>
+    
+                    <div class="col-md-6">
+                        <label for="phone">Mobiel</label><br>
+                        <input class="w-50" type="tel" id="phone" name="phone" >
+                    </div>
+            
+            </fieldset>
+            
+            
+            <fieldset class="mb-5 g-5 col-md-4">
+                <label for="question">Uw vraag</label>
+                <legend><textarea class="w-100" ></textarea></legend> 
+            </fieldset>
+    
+            <input type="submit" value="Upload">
+        </form>
+
+
+
+    </main>
+</body>
+<footer>
+    <article class="row m-2">
+
+        <a href="https://www.x.com" class="col-md-6 text-center rounded mt-5 z text-decoration-none text-black">
+            <p>Twitter</p>
+        </a>
+
+        <a href="https://www.github.com" class="col-md-6 text-center rounded mt-5 z text-decoration-none text-black">
+            <p>Github</p>
+        </a>
+
+    </article>
+</footer>
+</html>

@@ -1,0 +1,28 @@
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #9E2C2C;
+    color:#FFFFFF;
+  }
+
+  .z {
+    color: #000000 !important;
+  }
+  
+  .z:hover {
+    background-color: #9E2C2C;
+    color:#FFFFFF !important; 
+  }
+  
+  .footerlink{
+    background-color: #9E2C2C;
+  }
+  p.a {
+    white-space: nowrap;
+  }
+  
+  p.b {
+    white-space: normal;
+  }
+  
+  p.c {
+    white-space: pre;
+  }
